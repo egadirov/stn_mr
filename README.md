@@ -12,5 +12,5 @@ cd stn_mr
 Run the dev server:
 
 ```sh
-php artisan serve
+php -S localhost:8000
 ```
