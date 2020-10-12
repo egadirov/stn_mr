@@ -1,6 +1,6 @@
-<?php include('./parts/header.php'); ?>
+<?php include "./parts/header.php";  ?>
     <section class=" btn-gradient">
-       <div class="col-sm-4 d-flex justify-content-center align-items-center mx-auto" id="content">
+       <div class="col-sm-2 d-flex justify-content-center align-items-center mx-auto" id="content">
            <div class="w-100">
                <form class="px-4 py-3 ">
                    <div class="form-group input-group-lg">
@@ -15,8 +15,8 @@
                        <span class="text-white">Sign in</span>
                    </button>
                </form>
-               <a class="px-4" href="../index.php">New around here? Sign up</a>
+               <a class="px-4" href="../../index.php">New around here? Sign up</a>
            </div>
        </div>
     </section>
-<?php include('./parts/footer.php'); ?>
+<?php include "./parts/footer.php";  ?>

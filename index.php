@@ -1,7 +1,7 @@
 <?php
-include('./views/parts/header.php');
-include 'helpers.php';
-$menu_items = json_decode(file_get_contents('./nav_items.json'), true);
+include './public/views/parts/header.php';
+include 'src/helpers.php';
+$menu_items = json_decode(file_get_contents('./src/data.json'), true);
 ?>
 <div class="wrapper">
     <nav id="sidebar">
@@ -21,7 +21,7 @@ $menu_items = json_decode(file_get_contents('./nav_items.json'), true);
                     <i class="fas fa-align-left"></i>
                 </button>
                 <div class="nav navbar-nav ml-auto">
-                    <form method="POST" action="./views/login.php">
+                    <form method="POST" action="./public/views/login.php">
                         <button type="submit" class="btn btn-info btn-gradient">
                             <i class="fas fa-user"></i>
                             <span class="ml-1">Login</span>
@@ -63,4 +63,4 @@ $menu_items = json_decode(file_get_contents('./nav_items.json'), true);
         </section>
     </div>
 </div>
-<?php include('./views/parts/footer.php'); ?>
+<?php include('./public/views/parts/footer.php'); ?>
