@@ -3,7 +3,7 @@
 Clone the repo locally:
 
 ```sh
-git clone https://github.com/egadirov/stn_mr.git
+git clone https://github.com/egadirov/stn_mr.git -b master
 cd stn_mr
 ```
 
